@@ -665,7 +665,7 @@ body {
 <script>
 // ─── CONFIG ────────────────────────────────────────────────────────────────
 // 👉 Remplacez cette URL par celle de votre Google Apps Script (voir instructions)
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbwvDx-L8ZoaJ921W-0vGLIyYoMx8jj1YNORY6YRgKC7cinZxx2xkf6OjLoZGrUAr6rE/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbwKXU63iikbDEapgDaUV_TK2ngvV1HKy6QZJI1JyfrjCKFyL0V3ydq0sUnFQT5Aad3a/exec";
 
 // ─── DATA ──────────────────────────────────────────────────────────────────
 const SECTIONS = ["Profil","Motivation","Psychologie","Technique","Engagement","Objectifs"];
@@ -926,7 +926,7 @@ function submit() {
   };
 
   // Envoi vers Google Apps Script (si configuré)
-  if (SHEET_URL !== "https://script.google.com/macros/s/AKfycbwvDx-L8ZoaJ921W-0vGLIyYoMx8jj1YNORY6YRgKC7cinZxx2xkf6OjLoZGrUAr6rE/exec") {
+  if (SHEET_URL !== "https://script.google.com/macros/s/AKfycbwKXU63iikbDEapgDaUV_TK2ngvV1HKy6QZJI1JyfrjCKFyL0V3ydq0sUnFQT5Aad3a/exec") {
     fetch(SHEET_URL, {
       method: 'POST',
       mode: 'no-cors',
